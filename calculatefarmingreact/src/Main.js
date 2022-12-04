@@ -28,7 +28,6 @@ function Main() {
     },[coefficient1,coefficient2])
 
     const postHandle = () =>{
-        console.log(scroll);
         API.post(price1,price2,token1,token2 ).then(response=>{
             setPercent(response.data.percent);
         });
