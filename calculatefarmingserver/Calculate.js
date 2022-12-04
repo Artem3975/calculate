@@ -1,7 +1,7 @@
 
 class Calculate{
-    calc(curs1, curs2,amount1,amount2){
-        const percent =parseFloat(curs1) + parseFloat(curs2) + parseFloat(amount1) + parseFloat(amount2);
+    calc(price1, price2,token1,token2){
+        const percent =parseFloat(price1) + parseFloat(price2) + parseFloat(token1) + parseFloat(token2);
 
         return percent;
     }
